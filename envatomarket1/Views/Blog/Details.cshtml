@@ -1,0 +1,14 @@
+﻿@model envatomarket1.Models.Entity.Blog
+
+<h2>@Model.Title</h2>
+
+<div>
+    <strong>Description:</strong>
+    <p>@Model.Description</p>
+</div>
+<div>
+    <strong>Date:</strong>
+    <p>@Model.Day.ToString("dd/MM/yyyy")</p>
+</div>
+
+<a href="@Url.Action("Index", "Blog")" class="btn btn-primary">Back to List</a>

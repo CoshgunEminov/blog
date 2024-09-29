@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\envatomarket1.props" />
+</Project>
